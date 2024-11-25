@@ -1,0 +1,5 @@
+Rótulo,# Amostras,Média,Mín.,Máx.,Desvio Padrão,% de Erro,Vazão,KB/s,Sent KB/sec,Média de Bytes
+Teste de Estresse:GET USERS STRESS,30,296,129,484,"148,34","0,000%",",02479","0,05","0,00","2182,3"
+Teste de Estresse:POST USERS STRESS,30,373,287,459,"62,11","0,000%",",02479","0,03","0,01","1088,5"
+Teste de Estresse:DELETE USERS STRESS,30,369,285,466,"63,06","0,000%",",02479","0,02","0,01","993,7"
+TOTAL,90,346,129,484,"105,78","0,000%",",07432","0,10","0,01","1421,5"
