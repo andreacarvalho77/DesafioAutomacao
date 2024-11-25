@@ -1,61 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-22T23:10:34 BRT" name="Surefire suite" finished-at="2024-11-22T23:12:15 BRT" duration-ms="101178">
+  <suite started-at="2024-11-23T18:21:25 BRT" name="Surefire suite" finished-at="2024-11-23T18:22:39 BRT" duration-ms="73993">
     <groups>
     </groups>
-    <test started-at="2024-11-22T23:10:34 BRT" name="Surefire test" finished-at="2024-11-22T23:12:15 BRT" duration-ms="101178">
+    <test started-at="2024-11-23T18:21:25 BRT" name="Surefire test" finished-at="2024-11-23T18:22:39 BRT" duration-ms="73993">
       <class name="tests.TestBase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestBase@117159c0]" started-at="2024-11-22T23:10:34 BRT" name="setUp" finished-at="2024-11-22T23:10:50 BRT" duration-ms="15295" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestBase@1ca3b418]" started-at="2024-11-23T18:21:25 BRT" name="setUp" finished-at="2024-11-23T18:21:32 BRT" duration-ms="7531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHomePageTitle()[pri:0, instance:tests.TestBase@117159c0]" started-at="2024-11-22T23:10:50 BRT" name="testHomePageTitle" finished-at="2024-11-22T23:10:50 BRT" duration-ms="142" status="PASS">
+        <test-method signature="testHomePageTitle()[pri:0, instance:tests.TestBase@1ca3b418]" started-at="2024-11-23T18:21:32 BRT" name="testHomePageTitle" finished-at="2024-11-23T18:21:32 BRT" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestBase@117159c0]" started-at="2024-11-22T23:10:50 BRT" name="tearDown" finished-at="2024-11-22T23:10:52 BRT" duration-ms="1420" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestBase@1ca3b418]" started-at="2024-11-23T18:21:33 BRT" name="tearDown" finished-at="2024-11-23T18:21:33 BRT" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TestBase -->
       <class name="tests.TestRegister">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestRegister@7ef82753]" started-at="2024-11-22T23:11:29 BRT" name="setUp" finished-at="2024-11-22T23:11:41 BRT" duration-ms="11304" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestRegister@75d3a5e0]" started-at="2024-11-23T18:22:11 BRT" name="setUp" finished-at="2024-11-23T18:22:13 BRT" duration-ms="2690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHomePageTitle()[pri:0, instance:tests.TestRegister@7ef82753]" started-at="2024-11-22T23:11:41 BRT" name="testHomePageTitle" finished-at="2024-11-22T23:11:41 BRT" duration-ms="83" status="PASS">
+        <test-method signature="testHomePageTitle()[pri:0, instance:tests.TestRegister@75d3a5e0]" started-at="2024-11-23T18:22:13 BRT" name="testHomePageTitle" finished-at="2024-11-23T18:22:15 BRT" duration-ms="1517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestRegister@7ef82753]" started-at="2024-11-22T23:11:41 BRT" name="tearDown" finished-at="2024-11-22T23:11:42 BRT" duration-ms="1205" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestRegister@75d3a5e0]" started-at="2024-11-23T18:22:15 BRT" name="tearDown" finished-at="2024-11-23T18:22:15 BRT" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestRegister@7ef82753]" started-at="2024-11-22T23:11:42 BRT" name="setUp" finished-at="2024-11-22T23:11:50 BRT" duration-ms="8449" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestRegister@75d3a5e0]" started-at="2024-11-23T18:22:15 BRT" name="setUp" finished-at="2024-11-23T18:22:19 BRT" duration-ms="4010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registerUser()[pri:0, instance:tests.TestRegister@7ef82753]" started-at="2024-11-22T23:11:50 BRT" name="registerUser" finished-at="2024-11-22T23:12:12 BRT" duration-ms="21269" status="PASS">
+        <test-method signature="registerUser()[pri:0, instance:tests.TestRegister@75d3a5e0]" started-at="2024-11-23T18:22:19 BRT" name="registerUser" description="Teste de registro de usuário com preenchimento completo do formulário" finished-at="2024-11-23T18:22:38 BRT" duration-ms="18548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestRegister@7ef82753]" started-at="2024-11-22T23:12:12 BRT" name="tearDown" finished-at="2024-11-22T23:12:15 BRT" duration-ms="3632" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestRegister@75d3a5e0]" started-at="2024-11-23T18:22:38 BRT" name="tearDown" finished-at="2024-11-23T18:22:39 BRT" duration-ms="836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TestRegister -->
-      <class name="tests.TestLoja">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestLoja@3e27ba32]" started-at="2024-11-22T23:10:52 BRT" name="setUp" finished-at="2024-11-22T23:11:02 BRT" duration-ms="10764" status="PASS">
+      <class name="tests.TestLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestLogin@58cbafc2]" started-at="2024-11-23T18:21:33 BRT" name="setUp" finished-at="2024-11-23T18:21:38 BRT" duration-ms="4593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFluxoLoja()[pri:0, instance:tests.TestLoja@3e27ba32]" started-at="2024-11-22T23:11:02 BRT" name="testFluxoLoja" finished-at="2024-11-22T23:11:28 BRT" duration-ms="25994" status="PASS">
+        <test-method signature="TestFluxoLogin()[pri:0, instance:tests.TestLogin@58cbafc2]" started-at="2024-11-23T18:21:38 BRT" name="TestFluxoLogin" description="Teste de fluxo de login" finished-at="2024-11-23T18:21:40 BRT" duration-ms="2450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFluxoLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestLogin@58cbafc2]" started-at="2024-11-23T18:21:40 BRT" name="tearDown" finished-at="2024-11-23T18:21:40 BRT" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestLogin -->
+      <class name="tests.TestLoja">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestLoja@2034b64c]" started-at="2024-11-23T18:21:40 BRT" name="setUp" finished-at="2024-11-23T18:21:50 BRT" duration-ms="9661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFluxoLoja()[pri:0, instance:tests.TestLoja@2034b64c]" started-at="2024-11-23T18:21:50 BRT" name="testFluxoLoja" description="Teste do fluxo completo na loja: da navegação ao checkout" finished-at="2024-11-23T18:22:10 BRT" duration-ms="19968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFluxoLoja -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestLoja@3e27ba32]" started-at="2024-11-22T23:11:28 BRT" name="tearDown" finished-at="2024-11-22T23:11:29 BRT" duration-ms="977" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestLoja@2034b64c]" started-at="2024-11-23T18:22:10 BRT" name="tearDown" finished-at="2024-11-23T18:22:11 BRT" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

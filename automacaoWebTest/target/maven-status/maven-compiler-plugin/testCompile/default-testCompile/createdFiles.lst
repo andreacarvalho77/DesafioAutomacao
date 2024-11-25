@@ -1,4 +1,6 @@
 base\BaseTest.class
+tests\TestLogin.class
+pages\LoginPage.class
 pages\CheckoutPage.class
 pages\RegistrationPage.class
 utils\Locators.class

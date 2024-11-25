@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.TestLogin" class="method navigator-link" hash-for-method="TestFluxoLogin">TestFluxoLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="tests.TestRegister" class="method navigator-link" hash-for-method="registerUser">registerUser</a> <!-- method navigator-link -->
@@ -113,12 +118,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.TestRegister" class="method navigator-link" hash-for-method="testHomePageTitle">testHomePageTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.TestBase" class="method navigator-link" hash-for-method="testHomePageTitle">testHomePageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.TestBase" class="method navigator-link" hash-for-method="testHomePageTitle">testHomePageTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.TestRegister" class="method navigator-link" hash-for-method="testHomePageTitle">testHomePageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -136,6 +141,23 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">tests.TestLoja</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFluxoLoja">
+                  </a> <!-- testFluxoLoja -->
+                  <span class="method-name">testFluxoLoja</span>
+                  <em>
+(Teste do fluxo completo na loja: da navegação ao checkout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">tests.TestRegister</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -144,6 +166,8 @@
                   <a name="registerUser">
                   </a> <!-- registerUser -->
                   <span class="method-name">registerUser</span>
+                  <em>
+(Teste de registro de usuário com preenchimento completo do formulário)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -158,14 +182,16 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.TestLoja</span>
+              <span class="class-name">tests.TestLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testFluxoLoja">
-                  </a> <!-- testFluxoLoja -->
-                  <span class="method-name">testFluxoLoja</span>
+                  <a name="TestFluxoLogin">
+                  </a> <!-- TestFluxoLogin -->
+                  <span class="method-name">TestFluxoLogin</span>
+                  <em>
+(Teste de fluxo de login)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -198,6 +224,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;base.BaseTest&quot;/&gt;
       &lt;class name=&quot;tests.TestBase&quot;/&gt;
+      &lt;class name=&quot;tests.TestLogin&quot;/&gt;
       &lt;class name=&quot;tests.TestLoja&quot;/&gt;
       &lt;class name=&quot;tests.TestRegister&quot;/&gt;
     &lt;/classes&gt;
@@ -213,7 +240,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (4 classes)</span>
+                <span class="test-name">Surefire test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,28 +266,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testFluxoLoja')
 data.setCell(0, 2, 'tests.TestLoja')
-data.setCell(0, 3, 25994);
+data.setCell(0, 3, 19968);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'registerUser')
 data.setCell(1, 2, 'tests.TestRegister')
-data.setCell(1, 3, 21269);
+data.setCell(1, 3, 18548);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testHomePageTitle')
-data.setCell(2, 2, 'tests.TestBase')
-data.setCell(2, 3, 142);
+data.setCell(2, 1, 'TestFluxoLogin')
+data.setCell(2, 2, 'tests.TestLogin')
+data.setCell(2, 3, 2450);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testHomePageTitle')
 data.setCell(3, 2, 'tests.TestRegister')
-data.setCell(3, 3, 83);
+data.setCell(3, 3, 1517);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testHomePageTitle')
+data.setCell(4, 2, 'tests.TestBase')
+data.setCell(4, 3, 84);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -293,53 +324,68 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHomePageTitle</span>
-                <span class="method-start">15623 ms</span>
+                <span class="method-start">7703 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15796 ms</span>
+                <span class="method-start">7826 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestFluxoLogin</span>
+                <span class="method-start">12840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15300 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestLoja</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">17228 ms</span>
+                <span class="method-start">15666 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFluxoLoja</span>
-                <span class="method-start">28032 ms</span>
+                <span class="method-start">25331 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54032 ms</span>
+                <span class="method-start">45305 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestRegister</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">55015 ms</span>
+                <span class="method-start">45885 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHomePageTitle</span>
-                <span class="method-start">66323 ms</span>
+                <span class="method-start">48589 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">66409 ms</span>
+                <span class="method-start">50109 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">67619 ms</span>
+                <span class="method-start">50506 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerUser</span>
-                <span class="method-start">76072 ms</span>
+                <span class="method-start">54524 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">97402 ms</span>
+                <span class="method-start">73077 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

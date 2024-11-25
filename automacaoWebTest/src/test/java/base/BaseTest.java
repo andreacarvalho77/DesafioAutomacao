@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class BaseTest {
     protected WebDriver driver;
-    private final String baseUrl = "https://demo.automationtesting.in/Register.html";
+    private final String baseUrl = "https://demo.automationtesting.in/Index.html";
 
     @BeforeMethod
     public void setUp() {
